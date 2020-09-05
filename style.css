@@ -1,0 +1,54 @@
+#content {
+    color: lightblue;
+}
+
+.button {
+    background-color: gray;
+    color: white;
+    position: absolute;
+    border: none;
+    top: 80px;
+    left: 100px;
+}
+
+.button:hover {
+    background-color: lightgray;
+    border: 1px solid black;
+    color: white;
+}
+
+
+.content-column {
+    float: left;
+    width: 48%;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 100px;
+    
+}
+
+.image-column {
+    float: right;
+    width: 48%;
+    margin-right: 15px;
+    margin-top: 15px;;
+    height: 100px;
+    
+}
+
+#content p {
+    background: #F0F0F0;
+    color: gray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.image-column img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
