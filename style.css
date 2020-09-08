@@ -3,10 +3,10 @@
 } */
 
 .button {
-    background-color: gray;
-    color: white;
+    background-color: white;
+    color: maroon;
     position: relative;
-    border: none;
+    border: 1px solid gold;
     top: 20%;
     /* left: 100px; */
     right: 10%
@@ -14,21 +14,21 @@
     width: 70%;
     text-align: center;
     font-size: 1.05vw;
-    padding: 2px;
+    padding: 1px;
 }
-
-
 
 
 .button:hover {
-    background-color: lightgray;
-    border: 1px solid black;
-    color: white;
+    background-color: maroon;
+    border: 1px solid none;
+    color: gold;
 }
 
+
+/* maintain Miligram styling of h1 but change height with page */
 h1 {
     height: 20%;
-    
+    color: maroon;
 }
 
 .content-column {
@@ -54,7 +54,7 @@ h1 {
 #content p {
     background: #F0F0F0;
     color: gray;
-    border: 1px solid lightgray;
+    border: 1px dashed lightgray;
     border-radius: 5px;
     padding: 15px;
 }
@@ -66,4 +66,39 @@ h1 {
     border-radius: 15px;
     
 }
+
+a {
+    color: maroon;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    transition: background-color .7s;
+    background-color: gold;
+}
+
+/* a:visited {
+    color: gold;
+} */
+
+
+#twitter {
+    background-color: none;
+    border-radius: 50%;
+    width: 50px;
+    position: relative;
+    left: 530px; 
+}
+
+#icon-link:hover {
+    background-color: aliceblue;
+}
+
+
+body {
+    margin: 18px;
+    background-color: aliceblue;
+}
+
 

@@ -2,6 +2,9 @@
 <meta charset="utf-8">
 
 <head>
+    <!-- this appears next to the icon at the browser tab -->
+    <title>BC Factbook</title>
+
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     
@@ -18,40 +21,55 @@
     <script defer src="js/main.js"></script>
 </head>
 
-<!-- this appears next to the icon at the browser tab -->
-<title>BC Factbook</title>
 
 
-<!--  first column for the content -->
-<div class="content-column">
+<body>
+    <!--  first column for the content -->
+    <div class="content-column">
     
-    <header>
-        <h1>Boston College Factbook</h1>
-    </header>
+        <header>
+            <h1>Boston College Factbook</h1>
+        </header>
+    
+    
+        <div>
+            <button class="button" id="generate">Get a random fact about Boston College</button>
+            <!-- <button class="button button-outline" id="generate">Get a random fact about Boston College</button> -->
+        </div>
+    
+    
+        <div id="content">
+            <!-- will be filled by js on button click -->
+        </div>
+    
+    
+    </div>
+    
+    
+    <div class="image-column">
 
-    <!-- need to style this so the button doesn't tweak on page resize-->
-    <div id="button">
-        <button class="button" id="generate">Get a random fact about Boston College</button>
+        <div class = "icon">
+            <a id="icon-link" href="https://twitter.com/BostonCollege?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter.png" alt="Follow BC on Twitter" id="twitter"></a>
+        </div>
+        
+
+
+        <img src="gasson.jpg" alt="Gasson Hall">
+        <img src="eagles.jpg" alt="Eagles at a Football Game">
+        <img src="dance.jpg" alt="Dancers Dancing">
+    
+        <p> Images courtesy of
+            <a href="https://www.linkedin.com/in/kathleen-garrity-3521a0172/">Boston College's Office of University
+                Communications</a>
+        </p>
     </div>
 
-    
-    <div id="content">
-        <!-- will be filled later with js -->
-    </div>
 
 
-</div>
+
+</body>
 
 
-<div class="image-column">
-    <img src="gasson.jpg" alt="Gasson Hall">
-
-    <img src="eagles.jpg" alt="Eagles at a Football Game">
-
-    <p>image courtesy of 
-        <a href="https://www.linkedin.com/in/kathleen-garrity-3521a0172/">Boston College's Office of University Communications</a>
-    </p>
-</div>
 
 
     
